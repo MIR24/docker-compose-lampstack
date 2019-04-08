@@ -1,6 +1,12 @@
 /.env
 /.vscode
-/data/*
-/logs/*
-!**/.gitkeep
+
+/data/mysql/*
+/data/mysql/.gitkeep
+
+logs/apache2/*
+logs/mysql/*
+!/logs/apache2/.gitkeep
+!/logs/mysql/.gitkeep
+
 .DS_Store
